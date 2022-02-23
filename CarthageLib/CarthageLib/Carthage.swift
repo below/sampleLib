@@ -8,6 +8,8 @@
 import Foundation
 
 public class Cart {
+    public init() {}
+
     public func cartIdentifier() -> String {
         return "Carthage"
     }

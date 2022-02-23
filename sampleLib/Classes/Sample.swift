@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import CarthageLib
 
 public class Sample {
     public func libIdentity () -> String {
-        "sampleLib"
+        Cart().cartIdentifier()
     }
 }

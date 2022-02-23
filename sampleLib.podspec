@@ -38,5 +38,6 @@ This Library is designed to test the inclusion of a Carthage dependency within a
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.ios.vendored_frameworks = 'CarthageLib.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

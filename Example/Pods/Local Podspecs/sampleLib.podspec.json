@@ -1,8 +1,8 @@
 {
   "name": "sampleLib",
   "version": "0.1.0",
-  "summary": "A short description of sampleLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A test library to test the inclusion of carthage Frameworks.",
+  "description": "This Library is designed to test the inclusion of a Carthage dependency within a CocoaPods dependency tree",
   "homepage": "https://github.com/below/sampleLib",
   "license": {
     "type": "MIT",
@@ -15,8 +15,12 @@
     "git": "https://github.com/below/sampleLib.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/avbelow",
   "platforms": {
-    "ios": "9.0"
+    "ios": "14.0"
   },
-  "source_files": "sampleLib/Classes/**/*"
+  "source_files": "sampleLib/Classes/**/*",
+  "ios": {
+    "vendored_frameworks": "CarthageLib.framework"
+  }
 }
