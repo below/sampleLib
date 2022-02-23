@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'sampleLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of sampleLib.'
+  s.summary          = 'A test library to test the inclusion of carthage Frameworks.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This Library is designed to test the inclusion of a Carthage dependency within a CocoaPods dependency tree
                        DESC
 
   s.homepage         = 'https://github.com/below/sampleLib'
@@ -26,9 +26,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'below' => 'Alex@vonBelow.Com' }
   s.source           = { :git => 'https://github.com/below/sampleLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/avbelow'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'sampleLib/Classes/**/*'
   

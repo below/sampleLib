@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* sampleLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		93D650B9EE59B60A27E22574 /* sampleLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = sampleLib.podspec; path = ../sampleLib.podspec; sourceTree = "<group>"; };
+		93D650B9EE59B60A27E22574 /* sampleLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = sampleLib.podspec; path = ../sampleLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9CDA7C5B83CC3C8AC6A7BE /* Pods_sampleLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5D269A7BBCF4B97799472B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A5D269A7BBCF4B97799472B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BF8714BCB1ABD815C8BB8DEF /* Pods_sampleLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5FBD6CDA4C747724746ED02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5FBD6CDA4C747724746ED02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				21311C6AF0A05FB603791A8F /* Pods-sampleLib_Tests.debug.xcconfig */,
 				55E2EA8F7C7F4FD4408A7C59 /* Pods-sampleLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
