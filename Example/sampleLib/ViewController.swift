@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import sampleLib
 
 class ViewController: UIViewController {
 
+    @IBOutlet var libLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let s = Sample()
+        self.libLabel.text = s.libIdentity()
     }
 
     override func didReceiveMemoryWarning() {
