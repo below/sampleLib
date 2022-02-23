@@ -1,0 +1,22 @@
+{
+  "name": "sampleLib",
+  "version": "0.1.0",
+  "summary": "A short description of sampleLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/below/sampleLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "below": "Alex@vonBelow.Com"
+  },
+  "source": {
+    "git": "https://github.com/below/sampleLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "sampleLib/Classes/**/*"
+}
